@@ -1,0 +1,59 @@
+.middle{
+    width: 100%;
+}
+
+.portm{
+    margin: 0.5% 20%;
+    padding: 0.625rem;
+    border-radius: 5%;
+    background-color: var(--colorbacklight);
+    height: auto;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.portm > h1{
+    color: var(--colorwhite);
+    font-family: var(--font-sans-serif);
+    border-bottom: 0.0625rem solid var(--colorgrey);
+    width: 100%;
+}
+.porth2{
+    color: var(--colorwhite);
+    font-family: var(--font-sans-serif);
+    text-align: left;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.portp{
+    width: 100%;
+    text-align: left;
+    margin-left: 5%;
+    color: var(--colorwhite);
+    font-family: var(--font-sans-serif);
+  
+}
+
+.portbtn{
+    margin: 0.3%;
+    background-color: var(--colorhighlight);
+    color: var(--colorwhite);
+    font-family: var(--font-sans-serif);
+   
+}
+.portbtn > a{
+    background-color: var(--colorhighlight);
+    color: var(--colorwhite);
+    font-family: var(--font-sans-serif);
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.portbtn > a:hover {
+   background-color: var(--colorgrey);
+}
+

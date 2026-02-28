@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/ommig.css">
+    <title>CV-Portal</title>
+</head>
+<body>
+        <header class="top">
+            <h1>CV-Portal</h1>
+             <ul class = rowlist>
+                <li class="ulist"><a href="/HTML/index.html">Huvudsida</a></li>
+                <li class="ulist"><a href="/HTML/portfolio.html">Portfolio</a></li>
+                <li class="ulist active"><a href="/HTML/ommig.html">Om Mig</a></li>
+                <li class="ulist"><a href="/HTML/cv.html">CV</a></li>
+                <button onclick="changeBackground()">Byt bakgrund(kan ge epilepsi)</button>
+            </ul>
+        </header>
+           
+        <main>
+           <section class="middle flex-cols">
+            <div class="ommain">
+                <h2 class="fontsize-larger">Om Mig</h2>
+            </div>
+            <div class="ommain flex-rows">
+                <p class="omp fontsize-normal">Hej, jag är en junior fullstackutvecklare som gjorde den här sidan som en liten guide för hur man bygger ett CV.
+                    Jag lägger upp mina projekt på Github så om ni vill se mer av mina uppgifter så är det bara att titta på mitt portfolio.
+                </p>
+                <img class="omimg" src="/img/githublogo.webp" alt="githublogo">
+
+            </div>
+            <div class="ommain">
+                <label for="demo">Skriv era förslag till förbättringar på sidan här:</label>
+                <input type="text" id="demo" onkeydown="keydownFunction()" onkeyup="keyupFunction()">
+                
+            </div>
+           </section>
+        </main>
+         <footer class="main-footer">
+            <div class="main-footer-top flex-rows">
+                <ul class="footer-list flex-cols">
+                    <li><h2 class="fontsize-large">CV-Portal</h2></li>
+
+                    <li class="aref"><a href="/HTML/index.html">Huvudsida</a></li>
+                    <li class="aref"><a href="/HTML/portfolio.html">Portfolio</a></li>
+                    <li class="aref"><a href="/HTML/ommig.html">Om Mig</a></li>
+                    <li class="aref"> <a href="/HTML/cv.html">CV</a></li>
+                </ul>
+
+            </div>
+
+            <div class="main-footer-bottom flex-rows">
+                <p class="fontsize-normal">2026 &#169; Oscar</p>
+            </div>
+
+        </footer>
+        <script src="/Javascript/script.js"></script>
+</body>
+</html>
