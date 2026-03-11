@@ -1,6 +1,6 @@
 //Code for the button press to check the background
 function changeBackground(){
-    document.body.style.backgroundImage = "url('/digitalrain.gif')";
+    document.body.style.backgroundImage = "url('./digitalrain.gif')";
 }
 //Code for keydown
 function keydownFunction(){
