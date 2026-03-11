@@ -14,6 +14,7 @@
 
 body{
     background-image: url("./black.png");
+    background-color: var(--colorblack);
 }
 
 
