@@ -13,7 +13,7 @@
 }
 
 body{
-    background-image: url("./black.png");
+    background-image: url("/black.png");
     background-color: var(--colorblack);
 }
 
