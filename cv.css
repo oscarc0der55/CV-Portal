@@ -48,8 +48,13 @@
 }
 
 @media print{
-    header {
+    header{
         display: none;
+    }
+
+    main{
+        margin: 0;
+        padding: 0;
     }
     
 }
